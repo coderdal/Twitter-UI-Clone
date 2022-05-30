@@ -8,7 +8,10 @@
   --body-bg-color: #15202b;
   --text-color: #f7f9f9;
   --text-light-color: #8b98a5;
-  --button-bg-color: #1a8cd8;
+  --blue-color: #1a8cd8;
+  --button-blue-color: #1d9bf0;
+  --border-color: #38444d;
+  --hover-bg-color: rgba(247, 249, 249, 0.1);
 }
 
 body {

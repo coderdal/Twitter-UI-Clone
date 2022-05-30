@@ -1,7 +1,37 @@
 import React from "react";
 
 const Main = () => {
-  return <div>Main</div>;
+  return (
+    <div>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+      <h1>Lorem, ipsum.</h1>
+    </div>
+  );
 };
 
 export default Main;
