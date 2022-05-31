@@ -166,14 +166,14 @@ const FooterProfileDetailsText = styled.div`
   flex-direction: column;
 
   h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1em;
   }
 
   span {
     color: var(--text-light-color);
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   @media screen and (max-width: 1300px) {

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import styled from "styled-components";
-import { SearchIcon } from "../assets/icons";
+import { SearchIcon, ThreeDotsIcon } from "../assets/icons";
 
 const RightBarRoot = styled.aside`
-  flex: 1;
+  min-width: 400px;
   margin-left: 15px;
   margin-top: 6px;
 `;
@@ -83,6 +83,7 @@ const TrendItemStyled = styled.a`
   font-weight: 700;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   border-bottom-left-radius: none;
   border-bottom-right-radius: none;
@@ -100,6 +101,15 @@ const TrendItemStyled = styled.a`
     color: var(--text-light-color);
     font-weight: 400;
     font-size: 0.77em;
+  }
+
+  svg {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
   }
 `;
 
@@ -130,6 +140,7 @@ const RightBar = () => {
             >
               #ReactJS
               <span>126.9K Tweets</span>
+              <ThreeDotsIcon color="#8b98a5" />
             </TrendItemStyled>
 
             <TrendItemStyled
@@ -139,6 +150,7 @@ const RightBar = () => {
             >
               Styled Components
               <span>64.2K Tweets</span>
+              <ThreeDotsIcon color="#8b98a5" />
             </TrendItemStyled>
 
             <TrendItemStyled
@@ -148,6 +160,7 @@ const RightBar = () => {
             >
               @muhammederdal
               <span>34.7K Tweets</span>
+              <ThreeDotsIcon color="#8b98a5" />
             </TrendItemStyled>
 
             <TrendItemStyled
@@ -156,7 +169,8 @@ const RightBar = () => {
               rel="noopener noreferrer"
             >
               Github
-              <span>12.9K Tweets</span>
+              <span>16.1K Tweets</span>
+              <ThreeDotsIcon color="#8b98a5" />
             </TrendItemStyled>
 
             <TrendItemStyled
@@ -166,6 +180,7 @@ const RightBar = () => {
             >
               Linkedin
               <span>12.9K Tweets</span>
+              <ThreeDotsIcon color="#8b98a5" />
             </TrendItemStyled>
 
             <TrendItemStyled
@@ -175,6 +190,7 @@ const RightBar = () => {
             >
               I love React
               <span>9.9K Tweets</span>
+              <ThreeDotsIcon color="#8b98a5" />
             </TrendItemStyled>
           </TrendsListStyled>
         </TrendsStyled>
