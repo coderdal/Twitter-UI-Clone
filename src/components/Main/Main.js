@@ -1,36 +1,20 @@
 import React from "react";
 
+import styled from "styled-components";
+import SendTweet from "./SendTweet";
+
+const MainStyled = styled.main`
+  width: 600px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+`;
+
 const Main = () => {
   return (
-    <div>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-      <h1>Lorem, ipsum.</h1>
-    </div>
+    <MainStyled>
+      <SendTweet />
+    </MainStyled>
   );
 };
 

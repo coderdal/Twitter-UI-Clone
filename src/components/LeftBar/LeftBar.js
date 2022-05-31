@@ -19,7 +19,7 @@ import ProfilePicture from "../assets/images/profile-picture.png";
 const LeftBarRoot = styled.header`
   width: 290px;
   height: 100vh;
-  padding: 0 12px;
+  padding: 5px 12px;
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--border-color);
@@ -55,7 +55,7 @@ const ItemContent = styled.div`
   font-weight: 400;
   display: flex;
   align-items: center;
-  transition: 150ms background ease-in-out;
+  transition: 200ms background ease-in-out;
   font-weight: ${(props) => props.current && "700"};
   &:hover {
     background: ${(props) => !props.mainIcon && "var(--hover-bg-color)"};
@@ -70,7 +70,7 @@ const ItemContent = styled.div`
     margin-right: 8px;
     transition: 150ms background ease-in-out;
     &:hover {
-      background: ${(props) => props.mainIcon && "var(--hover-bg-color)"};
+      background: ${(props) => props.mainIcon && "var(--hover-blue-bg-color)"};
     }
   }
 
