@@ -32,6 +32,9 @@ const Main = () => {
           username="muhammederdal"
           time="5h"
           tweet="Hi, I'm Muhammed Erdal, this project developed with React js."
+          replyCount="634"
+          retweetCount="121"
+          likeCount="837"
         />
         <Tweet
           avatar="https://scalablecss.com/static/7032bdcf0d4b4b05cf487ac062ee0d72/21b4d/styled-components-global-styles.png"
@@ -39,6 +42,9 @@ const Main = () => {
           username="muhammederdal"
           time="12h"
           tweet="Hi dear visitor, I used styled-components to style this app."
+          replyCount="42"
+          retweetCount="118"
+          likeCount="324"
         />
         <Tweet
           avatar="https://kitweb.pro/wp-content/uploads/2021/09/react.jpg"
@@ -47,6 +53,9 @@ const Main = () => {
           time="17h"
           tweet="I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ "
           image={"https://kitweb.pro/wp-content/uploads/2021/09/react.jpg"}
+          replyCount="434"
+          retweetCount="221"
+          likeCount="537"
         />
 
         <Tweet
@@ -54,6 +63,9 @@ const Main = () => {
           username="muhammederdal"
           time="22h"
           tweet="Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. "
+          replyCount="627"
+          retweetCount="158"
+          likeCount="763"
         />
         <Tweet
           name="Erdal"
