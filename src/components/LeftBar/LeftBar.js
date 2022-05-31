@@ -22,7 +22,6 @@ const LeftBarRoot = styled.header`
   padding: 5px 12px;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid var(--border-color);
   @media screen and (max-width: 1300px) {
     width: 130px;
   }
@@ -37,6 +36,10 @@ const LeftBarHeader = styled.nav`
   padding: 0 10px;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 1300px) {
+    width: 120px;
+  }
 `;
 
 const LeftBarItem = styled.div`
@@ -46,6 +49,10 @@ const LeftBarItem = styled.div`
   align-items: center;
   font-size: 1.2em;
   margin-bottom: ${(props) => props.mainIcon && "8px"};
+
+  @media screen and (max-width: 1300px) {
+    width: 90px;
+  }
 `;
 
 const ItemContent = styled.div`
@@ -100,7 +107,7 @@ const TweetBtn = styled.a`
   }
 
   @media screen and (max-width: 1300px) {
-    width: 35%;
+    width: 80%;
   }
 `;
 

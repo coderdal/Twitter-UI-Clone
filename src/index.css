@@ -13,6 +13,7 @@
   --border-color: #38444d;
   --hover-bg-color: rgba(247, 249, 249, 0.1);
   --hover-blue-bg-color: rgba(26, 140, 216, 0.1);
+  --tweet-hover-bg-color: rgba(247, 249, 249, 0.027);
 }
 
 body {
