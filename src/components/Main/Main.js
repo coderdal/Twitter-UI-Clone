@@ -48,6 +48,68 @@ const Main = () => {
           tweet="I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ "
           image={"https://kitweb.pro/wp-content/uploads/2021/09/react.jpg"}
         />
+
+        <Tweet
+          name="Erdal"
+          username="muhammederdal"
+          time="22h"
+          tweet="Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. "
+        />
+        <Tweet
+          name="Erdal"
+          username="muhammederdal"
+          time="22h"
+          tweet="Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. "
+        />
+        <Tweet
+          name="Erdal"
+          username="muhammederdal"
+          time="22h"
+          tweet="Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. "
+        />
+        <Tweet
+          name="Erdal"
+          username="muhammederdal"
+          time="22h"
+          tweet="Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. "
+        />
+
+        <Tweet
+          avatar="https://kitweb.pro/wp-content/uploads/2021/09/react.jpg"
+          name="Erdal 💙 React"
+          username="muhammederdal"
+          time="17h"
+          tweet="I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ I love react ❤ "
+          image={"https://kitweb.pro/wp-content/uploads/2021/09/react.jpg"}
+        />
+        <Tweet
+          avatar="https://cms-assets.tutsplus.com/cdn-cgi/image/width=400/uploads/users/34/posts/29003/preview_image/react.js.png"
+          name="Cod Erdal"
+          username="muhammederdal"
+          time="5h"
+          tweet="Hi, I'm Muhammed Erdal, this project developed with React js."
+        />
+        <Tweet
+          name="Erdal"
+          username="muhammederdal"
+          time="22h"
+          tweet="Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. Lorem ipsum dolor sit amed. "
+        />
+        <Tweet
+          avatar="https://cms-assets.tutsplus.com/cdn-cgi/image/width=400/uploads/users/34/posts/29003/preview_image/react.js.png"
+          name="Cod Erdal"
+          username="muhammederdal"
+          time="5h"
+          tweet="Hi, I'm Muhammed Erdal, this project developed with React js."
+        />
+
+        <Tweet
+          avatar="https://cms-assets.tutsplus.com/cdn-cgi/image/width=400/uploads/users/34/posts/29003/preview_image/react.js.png"
+          name="Cod Erdal"
+          username="muhammederdal"
+          time="5h"
+          tweet="Hi, I'm Muhammed Erdal, this project developed with React js."
+        />
       </TweetListStyled>
     </MainStyled>
   );

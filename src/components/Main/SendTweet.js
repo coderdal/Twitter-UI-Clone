@@ -137,8 +137,8 @@ const ButtonsStyled = styled.div`
   padding: 12px 0;
 
   button {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     background: rgba(0, 0, 0, 0);
     border: none;
     outline: none;
